@@ -40,14 +40,14 @@ function Ad(){
             <div className="ad-choices">
                 <div className="flavor">
                     <p>What to Support</p>
-                    <button onClick={chooseChocolate}>Chocolate</button>
-                    <button onClick={chooseVanilla}>Vanilla</button>
-                    <button onClick={chooseMint}>Mint</button>   
+                    <button disabled={flavor === "Chocolate"} onClick={chooseChocolate}>Chocolate</button>
+                    <button disabled={flavor === "Vanilla"} onClick={chooseVanilla}>Vanilla</button>
+                    <button disabled={flavor === "Mind"} onClick={chooseMint}>Mint</button>   
                 </div>
                 <div className="dark-mode">
                     <p>Color Theme</p>
-                    <button onClick={darkOn}>Dark</button>
-                    <button onClick={darkOff}>Light</button>
+                    <button disabled={darkMode} onClick={darkOn}>Dark</button>
+                    <button disabled={darkMode === false} onClick={darkOff}>Light</button>
                 </div>
                 <p>Font Size</p>
                 <div className="font-size">
