@@ -1,0 +1,12 @@
+@media screen and (min-width: 768px) {
+    .Votes{
+        float:right;
+        width: 47%;
+        margin: 0;
+    }
+    .ad-section{
+        display: inline-flex;
+        width: 47%;
+        float: left;
+  }
+}

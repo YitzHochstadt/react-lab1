@@ -1,0 +1,10 @@
+.Votes{
+    margin: 0px 10px;
+}
+.flavor-votes{
+    margin: 20px 0;
+}
+.flavor-bar{
+    height: 10px;
+    border-radius: 15px;
+}

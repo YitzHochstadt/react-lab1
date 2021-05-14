@@ -1,0 +1,52 @@
+.ad-section{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+.ad{
+    border: 2px solid #222;
+    color: #000;
+    box-shadow: 0 0 0 gray;
+    width: 120px;
+    height: 80px;
+    text-align: center;
+}
+.dark{
+    color: #fff;
+    background-color: #222;
+    border: 2px solid black;
+    box-shadow: 0 0 0 gray;
+}
+.flavor-font{
+    font-family: 'Caveat', cursive;
+    font-weight: 900;
+    font-size: larger;
+}
+.font-size{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    margin: 10px 0px;
+}
+button{
+    margin: 0px 5px;
+    border: none;
+    background-color:#0e3c7e;
+    border-radius: 10%;
+    color: white;
+    height: 30px;
+    width: 70px;
+}
+button:disabled{
+    margin: 0px 5px;
+    border: none;
+    background-color:gray;
+    border-radius: 10%;
+    color: white;
+    height: 30px;
+    width: 70px;
+}
+

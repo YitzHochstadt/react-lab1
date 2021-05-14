@@ -1,9 +1,14 @@
 import './Header.css';
 
-function Header(){
+interface Props{
+    name:string
+}
+function Header({name}:Props){
+
     return (
         <div className="Header">
             <h1>Ice Cream Wars</h1>
+            <h2>Welcome {name}</h2>
         </div>
     )
 }
